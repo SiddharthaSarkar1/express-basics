@@ -1,0 +1,17 @@
+{
+  "name": "mycontacts-backend-api",
+  "version": "1.0.0",
+  "description": "Express project for mycontacts backend api",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siddhartha Sarkar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
+  }
+}
