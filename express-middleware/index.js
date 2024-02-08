@@ -10,7 +10,7 @@ const app = express();
 const PORT = 8080;
 
 //Built-in middleware
-app.use(express.json());
+app.use(express.json()); //This is body parser
 app.use(express.urlencoded({ extended: true }));
 
 //http://localhost:8080/mages/Avatar.png
