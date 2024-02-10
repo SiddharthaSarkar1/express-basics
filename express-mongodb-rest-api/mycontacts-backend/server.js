@@ -9,6 +9,7 @@ const port = process.env.PORT || 5050;
 
 app.use(express.json());//This is body parser
 app.use('/api/contacts', require("./routes/contactRoutes"));
+app.use('/api/users', require("./routes/userRoutes"));
 app.use(errorHandler);
 
 
